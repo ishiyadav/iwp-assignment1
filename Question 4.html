@@ -1,0 +1,60 @@
+<!--Recreate a given image using HTML forms-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ishi Yadav Forms</title>
+</head>
+
+<body style="background-color: #3366CC; color:#ffffff;">
+    <form method="POST" action="comments.pl">
+        <fieldset>
+            <legend><b>Personal Info</b></legend>
+            <label for="firstname">First name: </label>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname">Last name: </label>
+            <input type="text" id="lastname" name="lastname"><br>
+        </fieldset>
+        <fieldset>
+            <h5>Course:</h5>
+            <legend><b>Course Info</b></legend>
+            <input type="radio" id="webdesign" name="course" value="Web Design">
+            <label for="webdesign">Web Design</label><br>
+            <input type="radio" id="sql" name="course" value="SQL">
+            <label for="sql">SQL</label><br>
+            <input type="radio" id="Programming" name="course" value="Programming">
+            <label for="Programming">Programming</label>
+
+            <h5>Career Goal:</h5>
+            <select name="career_goal">
+                <option>Analyst
+                <option selected>Programmer
+                <option>Consultant
+            </select>
+            <h5>Skills(check all that apply):</h5>
+            <div>
+                <input type="checkbox" name="unix" id="unix" />
+                <label for="unix">UNIX</label>
+                <input type="checkbox" name="VIM" id="VIM" />
+                <label for="VIM">VIM</label>
+            </div>
+            <div>
+                <input type="checkbox" name="html" id="html" />
+                <label for="html">HTML</label>
+                <input type="checkbox" name="css" id="css" />
+                <label for="css">CSS</label>
+            </div>
+            <div>
+                <input type="checkbox" name="python" id="python" />
+                <label for="python">Python</label>
+                <input type="checkbox" name="javascript" id="javascript" />
+                <label for="javascript">JavaScript</label>
+            </div>
+            <h4>Describe any additional skills you have:</h4>
+            <textarea name="additional skills" rows="5" cols="80"></textarea>
+        </fieldset>
+        <input type="submit" name="send" value="Enter my information">
+    </form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    padding: 3em;
+    size: 12px;
+    color: #18191A;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figcaption {
+    font: .7em 'Berkshire Swash', cursive;
+    text-align: center;
+  }
+
+  blockquote {
+    font: 1em 'Berkshire Swash', cursive;
+    margin: 0;
+    column-span: all;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 840px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    border: 2.5px solid black;
+    padding: 20px;
+  }
+
+  .container article {
+    column-count: 2;
+    column-gap: 2em;
+    column-rule: 2px solid #C5C5C5;
+  }
+
+  .container aside {
+    border-left: 2px solid #C5C5C5;
+    padding: 0 1em;
+  }
+

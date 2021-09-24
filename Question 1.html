@@ -1,0 +1,93 @@
+<!--a) Print your name and RegNo in green color with different style of your choice.
+b) Print the numbers 1 - 10, each number being a different color.
+c) Print a paragraph with 4 - 5 sentences. Each sentence should be a different font.
+d) Print a paragraph that is a description of a book; include the title of the book as well as its
+author. Names and titles should be underlined, adjectives should be italicized and bolded.
+e) Print your name to the screen with every letter being a different heading size.
+f) Write a comment line on your code and make sure it is not displayed in the page.
+g) Display a c code as it is in the page.
+h) Set the background color of the page as yellow.
+i) Apply marquee for your name.
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ishi Yadav Practice 1</title>
+</head>
+ <!-- Part 8 -->
+<body style="background-color: yellow;">
+    <!-- Part 1 -->
+    <div style="color: green;">
+        <h1 style="font-style: bold;">19BCE0482</h1>
+        <h1 style="font-style: italic;">Ishi Yadav</h1>
+    </div>
+    <!-- Part 2 -->
+    <div>
+        <h3 style="color: violet;">1</h3>
+        <h3 style="color: indigo;">2</h3>
+        <h3 style="color: blue;">3</h3>
+        <h3 style="color: green;">4</h3>
+        <h3 style="color: yellowgreen;">5</h3>
+        <h3 style="color: orange;">6</h3>
+        <h3 style="color: red;">7</h3>
+        <h3 style="color: purple;">8</h3>
+        <h3 style="color: black;">9</h3>
+        <h3 style="color: brown;">10</h3>
+    </div>
+    <!-- Part 3-->
+    <div>
+        <p>
+            <p style="font-family: 'Arial', Courier, monospace;">Hello! My name is Ishi Yadav</p>
+            <p style="font-family: 'Times', 'Arial Narrow', Arial, sans-serif;">I am a Computer Science student.</p>
+            <p style="font-family: 'Georgia', 'Times New Roman', Times, serif;">I like drawing, painting and graphic design.</p>
+            <p style="font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;">I have also worked on many UI/UX projects.</p>
+        </p>
+    </div>
+    <!-- Part 4 -->
+    <div>
+        <h3>Title: <u>Jane Eyre</u></h3>
+        <h3>Author: <u>Charlotte Brontë</u></h3>
+        <p>
+            The novel follows the story of <u>Jane</u>, a seemingly <b><i>plain</i></b> and <b><i>simple</i></b> girl as she battles through life's struggles. <u>Jane</u>, 
+            has many obstacles in her life - her cruel and abusive Aunt Reed, the grim conditions at <u>Lowood school</u>, her love for <u>Rochester</u> 
+            and <u>Rochester's</u> marriage to <u>Bertha.</u> However, <u>Jane</u> overcomes these obstacles through her determination, <b><i>sharp</i></b> wit and courage.
+        </p>
+    </div>
+    <!-- Part 5 -->
+    <div style="display: flex;">
+        <h1>I</h1>
+        <h2>S</h2>
+        <h3>H</h3>
+        <h4>I</h4>
+    </div>
+    <!-- Part 6 -->
+    <div>
+        
+    </div>
+    <!-- Part 7 -->
+    <div>
+        <p>
+           <pre>#include&lt;stdio.h&gt;  
+            int main()    
+            {    
+             int n1=0,n2=1,n3,i,number;    
+             printf("Enter the number of elements:");    
+             scanf("%d",&number);    
+             printf("\n%d %d",n1,n2);//printing 0 and 1    
+             for(i=2;i&lt;number;++i)   
+             {    
+              n3=n1+n2;    
+              printf(" %d",n3);    
+              n1=n2;    
+              n2=n3;    
+             }  
+              return 0;  
+             }   </pre> </p>
+    </div>
+    <!-- part 9 -->
+    <marquee width = "750px">
+        Ishi Yadav
+     </marquee>
+</body>
+</html>

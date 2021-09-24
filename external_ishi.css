@@ -1,0 +1,30 @@
+body{
+    background-image: url("owl.png");
+    background-repeat: no-repeat;
+}
+.heading-para{
+    width: 70%;
+}
+.heading{
+    background-color:#E3E3E3;
+    width: 40%;
+    padding-left: 40px;
+    position: absolute;
+    right: 150px;
+}
+.para2{
+    position: absolute;
+    right: 30rem;
+    top: 160px;
+    border: 1px solid black;
+    border-top-style: dotted;
+    border-width: 3.5px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    padding-right: 195px;
+    width: 30%;
+    position: absolute;
+    right: 125px;
+
+}

@@ -1,0 +1,111 @@
+<!--Create a user registration webpage using HTML Form elements (Input types) for a
+hackathon event registration. The webpage must contain the following input types to
+get the details of the students
+# Input Types:- Textfields, Textarea, checkbox, radio button, submit button, reset
+button, drop down box, images (if required).
+# Apply styles, Formatting tags of HTML for good design.
+# Use HTML 5 new input types to display additional contents-->
+
+<html>
+<head>
+    <title>Ishi Question 5</title>
+</head>
+<style>
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    </style>
+<body>
+    <h1 style="font-size:180%;color:purple;text-align:center;"><b>Registration Form for VIT Hack</h1></b>
+    <img src="https://res.cloudinary.com/ideation/image/upload/c_fill,h_270,w_540/q8xdhhq1fep9ldwii1ln" class="center">
+    <form>
+        <table align="center" cellpadding="20">
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Full Name</td></b>
+                <td><input type="text" name="Name" maxlength="30" placeholder="Enter your name" required />
+                </td>
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Gender</td></b>
+                <td>
+                    <input type="radio" name="Gender" value="Male" />
+                    Male
+                    <input type="radio" name="Gender" value="Female" />
+                    Female
+                    <input type="radio" name="Gender" value="Others" />
+                    Prefer not to specify
+                </td>
+            </tr>
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Email ID</td></b>
+                <td><input type="email" name="Email" maxlength="20" placeholder="Enter your student email" required />
+                </td>
+            </tr>
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Mobile Number</td></b>
+                <td>
+                    <input type="text" name="Number" maxlength="10" placeholder="Enter valid mobile number" />
+                </td>
+            </tr>
+
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Address<br /><br /><br /></td></b>
+                <td><textarea name="Address" rows="5" cols="60" placeholder="Enter your residential address"></textarea></td>
+            </tr>
+           
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Your skills <br />(Select all that apply)<br /><br /></td></b>
+                <td>
+                    <input type="checkbox" name="front" value="front" />
+                    Frontend Development
+                    <br />
+                    <input type="checkbox" name="design" value="design" />
+                    UI/UX Design
+                    <br />
+                    <input type="checkbox" name="app" value="app" />
+                    App Development
+                    <br />
+                    <input type="checkbox" name="back" value="back" />
+                    Backend Development
+                    <br />
+                    <input type="checkbox" name="dev" value="dev">
+                    DevOps
+                </td>
+            </tr>
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Meal Preference<br /></td></b>
+                <td>
+                    <select name="meal">
+                        <option>Vegetarian
+                        <option>Eggetarian
+                        <option>Non-vegetarian
+                    </select>
+                </td>
+            <tr>
+            <tr style="background-color:lavenderblush;font-family:Arial, Helvetica, sans-serif;">
+                <td><b>Hackathon Track of choice<br /></td></b>
+                <td>
+                    <input type="radio" name="auto" value="auto">
+                    Automation<br>
+                    <input type="radio" name="fin" value="fin">
+                    Finance<br>
+                    <input type="radio" name="blo" value="blo">
+                    Blockchain<br>
+                    <input type="radio" name="health" value="health">
+                    Healthcare<br>
+                    <input type="radio" name="pro" value="pro">
+                    Productivity<br>
+                </td>
+            <tr>
+                <td colspan="5" align="center">
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
